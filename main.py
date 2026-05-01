@@ -1,7 +1,7 @@
 from personal_questions import questions
 from date_activity import date_questions
 from start_activity import start_activity
-from deliver_activity import deliver_activity
+from git_hub_question import git_hub_question
 
 def main():
 	print("Seja bem vindo, esta é uma atividade de Python da disciplina Operations Resource")
@@ -10,7 +10,7 @@ def main():
 	questions()
 	date_questions()
 	start_activity()
-	deliver_activity()
+	git_hub_question()
 	
 
 
