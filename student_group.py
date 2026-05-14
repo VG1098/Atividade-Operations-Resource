@@ -1,11 +1,11 @@
 def student_group():
     """
-    Função para identificar se a atividade foi feita em grupo e quantos integrantes serão validados.
+    Função para identificar se a atividade será feita em grupo e quantos integrantes serão validados.
     """
-    pergunta1 = input("A atividade foi feita em grupo? (sim/não): ")
+    pergunta1 = input("A atividade será feita em grupo? (sim/não): ")
     while pergunta1.lower() not in ["sim", "não"]:
         print("Resposta inválida. Por favor, responda com 'sim' ou 'não'.")
-        pergunta1 = input("A atividade foi feita em grupo? (sim/não): ")
+        pergunta1 = input("A atividade será feita em grupo? (sim/não): ")
     if pergunta1.lower() == "sim":
         quantidade_integrantes = input("Quantos integrantes tem o grupo? ")
         while not quantidade_integrantes.isdigit() or int(quantidade_integrantes) < 2:
